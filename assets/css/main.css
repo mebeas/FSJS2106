@@ -1,7 +1,7 @@
 body{
     background-color: blue;
     margin: 0;
-
+    /* background-image: url(/assets/img/Mapa_mundi.png); */
 }
 
 nav{
@@ -28,6 +28,7 @@ p{
     text-align:justify;
     font-size: 25 px;
     letter-spacing:3px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 h1 { 
@@ -52,4 +53,16 @@ li {
     margin-right: auto;
 
 }
+
+#hero-home{
+
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
 
