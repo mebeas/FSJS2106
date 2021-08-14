@@ -34,6 +34,7 @@ h1 {
     color:white;
     font-family: Arial;
     text-decoration-color: snow;
+    text-align: center;
 }
 li {
     color:white;
@@ -41,8 +42,8 @@ li {
     font-size: 20px;
 }
 
-#imgback{
-     width: 1 px;
-     height: 1 px; 
-
+#icome{
+    width: 46px;
+    height: 44px;
+    margin: 10px;
 }
