@@ -22,9 +22,12 @@ nav{
 
 }
 p{
+    padding-block: 10;
+    
     color:white;
     text-align:justify;
     font-size: 25 px;
+    letter-spacing:3px;
 }
 
 h1 { 
@@ -36,4 +39,10 @@ li {
     color:white;
     font-family: arial;
     font-size: 20px;
+}
+
+#imgback{
+     width: 1 px;
+     height: 1 px; 
+
 }
