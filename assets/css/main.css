@@ -37,9 +37,11 @@ h1 {
     text-align: center;
 }
 li {
-    color:white;
+    color:coral;
     font-family: arial;
-    font-size: 20px;
+    font-size: 30px;
+    text-indent: 15px;
+
 }
 
 #icome{
