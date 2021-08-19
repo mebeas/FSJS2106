@@ -1,7 +1,7 @@
 body{
-    background-color: blue;
+    /* background-color: blue; */
     margin: 0;
-    /* background-image: url(/assets/img/Mapa_mundi.png); */
+     background-image: url(/assets/img/Mapa_mundi.png); */
 }
 
 nav{
@@ -24,7 +24,7 @@ nav{
 p{
     padding-block: 10;
     
-    color:white;
+    color:black;
     text-align: center;
     font-size: 35 px;
     letter-spacing:3px;
@@ -36,6 +36,7 @@ h1 {
     font-family: Arial;
     text-decoration-color: snow;
     text-align: center;
+    font: size 30px;
 }
 a {
     color:coral;
