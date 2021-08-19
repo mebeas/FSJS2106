@@ -13,7 +13,9 @@ nav{
     justify-content: space-around;
     align-items: center;
     padding: 25px 50px;
-
+  
+      
+  
 }
 
 .text-nav{
@@ -21,6 +23,7 @@ nav{
     font-size: 30px;
     /* display: flex; */
     color: #fff;
+    
 
 }
 p{
