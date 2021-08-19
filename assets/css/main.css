@@ -2,6 +2,7 @@ body{
     /* background-color: blue; */
     margin: 0;
      background-image: url(/assets/img/Mapa_mundi.png); */
+
 }
 
 nav{
@@ -11,13 +12,14 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 25px 50px;
 
 }
 
 .text-nav{
     text-decoration: none;
     font-size: 30px;
-
+    /* display: flex; */
     color: #fff;
 
 }
@@ -25,21 +27,28 @@ p{
     padding-block: 10;
     
     color:black;
-    text-align: center;
+    text-align: left;
     font-size: 35 px;
     letter-spacing:3px;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 h1 { 
-    color:white;
+    color:black;
+    font-family: Arial;
+    text-decoration-color: snow;
+    text-align: center;
+    font: size 30px;
+}
+h3 { 
+    color:black;
     font-family: Arial;
     text-decoration-color: snow;
     text-align: center;
     font: size 30px;
 }
 a {
-    color:coral;
+    color:black;
     font-family: arial;
     font-size: 30px;
     text-indent: 15px;
@@ -58,24 +67,25 @@ a {
 #hero-home{
 
     width: 100%;
-    
-
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 25px 50px; 
 }
 #hero-home img{
 
 
 }
 
-}
+
 footer{
-    font-family: ;
+    font-family:Arial, Helvetica, sans-serif;
     text-align: center;
-    color: antiquewhite;
-    text-size-adjust: 50px;
+    color: black;
+    text-size-adjust: 25px;
     font-family: Arial;
+   
+    padding: 25px 50px; 
 }
 
 
