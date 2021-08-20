@@ -12,9 +12,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-  
     position: fixed;
-    
     top: 0%;
       
   
@@ -89,8 +87,7 @@ footer{
     color: black;
     text-size-adjust: 25px;
     font-family: Arial;
-   
-    padding: 25px 50px; 
+   /* padding: 25px, 50px;  */
 }
 
 
