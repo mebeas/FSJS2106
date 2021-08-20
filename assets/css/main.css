@@ -87,7 +87,9 @@ footer{
     color: black;
     text-size-adjust: 25px;
     font-family: Arial;
+    top: 20%;
    /* padding: 25px, 50px;  */
+   bottom: 10%;
 }
 
 
