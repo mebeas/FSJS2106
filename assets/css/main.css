@@ -15,7 +15,7 @@ nav{
     background:black;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:flex-start
     position: fixed;
    
       
@@ -44,7 +44,7 @@ h1 {
     color:black;
     font-family: Arial;
     text-decoration-color: snow;
-    text-align: center;
+    text-align:center;
     font: size 30px;
 }
 h3 { 
@@ -116,8 +116,76 @@ div.gallery {
    div.gallery:hover { 
     border: 1px solid #777; 
    } 
-   @media screen and (max-width: 600px) {
-        
+
+
+footer{
+
     text-align: center;
+}
+
+   @media screen and (max-width: 400px) {
+      body{
+        color: white; 
+      }   
+       
+       
+  
+
+    nav{
+        /* height: 100%; */
+        width: 100%;
+        background:black;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        position: fixed;
+       flex-direction: column;
+          
+      
+    }
     
+    .text-nav{
+        text-decoration:slategray;
+        font-size: 20px;
+        display:flex;
+        color: #fff;
            }
+
+ h1 { 
+           
+                      
+            text-align:center;
+            font-size:  20px;
+            color:purple;
+
+        }
+        a {
+            color:black;
+            font-family: arial;
+            font-size: 20px;
+            text-indent: 15px;
+        
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px;
+            float:right;
+            width: 50%;
+        
+          }
+          div.gallery img {
+            width: 50%;
+            height: auto;
+          }
+          div.desc {
+            padding: 15px;
+            text-align: center;
+          }
+        
+        
+         
+           div.gallery:hover { 
+            border: 1px solid #777; 
+           } 
+    }
