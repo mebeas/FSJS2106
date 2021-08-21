@@ -1,14 +1,12 @@
 body{
   
     margin: 0;
-     background-image: url(/assets/img/Mapa_mundi.png); 
+     background-image: url(/assets/img/Mapa_mundi.png);
+
     }
 
 
-     @media screen and (max-width: 600px) {
-        
-          background-color: olive;
-                 }
+     
 
 
 nav{
@@ -27,7 +25,7 @@ nav{
 .text-nav{
     text-decoration: none;
     font-size: 30px;
-    /* display: flex; */
+    display: flex; 
     color: #fff;
     
 
@@ -89,7 +87,7 @@ a {
     text-align: center;
     color: black;
     text-size-adjust: 25px;
-    font-family: Arial;
+  
     bottom: 100%;
     top: 20%;
    /* padding: 25px, 50px;  */
@@ -118,3 +116,8 @@ div.gallery {
    div.gallery:hover { 
     border: 1px solid #777; 
    } 
+   @media screen and (max-width: 600px) {
+        
+    text-align: center;
+    
+           }
